@@ -12,6 +12,14 @@
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
+
+
+defaults:
+- scope:
+    path: "" # an empty string here means all files in the project
+  values:
+    layout: "default"
+
 # in the templates via {{ site.myvariable }}.
 title: ESL1 Clubs
 email: marks@eslcc.club
